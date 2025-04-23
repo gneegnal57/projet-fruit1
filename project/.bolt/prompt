@@ -1,0 +1,61 @@
+For all designs I ask you to make, have them be beautiful, not cookie cutter. Make webpages that are fully featured and worthy for production.
+
+By default, this template supports JSX syntax with Tailwind CSS classes, React hooks, and Lucide React for icons. Do not install other packages for UI themes, icons, etc unless absolutely necessary or I request them.
+
+Use icons from lucide-react for logos.
+
+Use stock photos from unsplash where appropriate, only valid URLs you know exist. Do not download the images, only link to them in image tags.
+
+Cahier des Charges - FruitExpress
+1. Presentation du Projet
+FruitExpress est une application web de gestion commerciale specialisee dans la vente et distribution de
+fruits. Lobjectif est de centraliser les operations de gestion de stock, ventes, clients, livraisons, et rapports.
+2. Objectifs Fonctionnels
+2.1 Tableau de Bord
+- Statistiques en temps reel
+- Graphiques dynamiques
+- Indicateurs cles : CA, produits en rupture
+User Story: Suivi des performances
+2.2 Gestion des Produits
+- CRUD produits
+- Categories
+User Story: Ajouter un produit complet visible en POS
+2.3 Gestion de lInventaire
+- Stock en temps reel
+- Alertes de seuil
+User Story: Alerte pour reapprovisionnement
+2.4 Gestion des Clients
+- Base de donnees client
+- Historique des commandes
+User Story: Suivre lhistorique client
+2.5 Systeme de Vente (POS)
+- Selection produits rapideCahier des Charges - FruitExpress
+- Paiements : Especes, Carte, Mobile Money
+User Story: Enregistrer une vente efficacement
+2.6 Gestion des Livraisons
+- Attribution des livreurs
+- Suivi et notification
+User Story: Voir mes livraisons du jour
+2.7 Rapports et Analyses
+- Rapports PDF/Excel
+- Statistiques filtres par periode
+2.8 Configuration & Parametres
+- Modules activables
+- Multi-devises
+- Contenu personnalisable
+3. Fonctionnalites Transversales
+- Authentification (Supabase Auth)
+- UI Responsive
+- Notifications temps reel
+-francais
+4. Architecture Technique
+- Frontend : React, TypeScript, Tailwind
+- Backend : Supabase, PostgreSQL
+5. Base de Donnees Supabase
+- Tables principales : produits, ventes, clients, livraisons, utilisateurs, etc.Cahier des Charges - FruitExpress
+6. Evolutions Futures
+- Appli mobile, fidelite, gestion fournisseurs, integration compta
+7. Livrables Attendus
+- Application web fonctionnelle
+- Code source documente
+- Acces test et base Supabase prete
